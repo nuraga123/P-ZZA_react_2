@@ -1,0 +1,91 @@
+.cart {
+  width: "90%";
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1120px;
+  min-height: 520px;
+}
+
+.container {
+  max-width: 830px;
+  min-height: 700px;
+  width: 100%;
+  height: 100%;
+  margin: 20px auto;
+}
+
+.container__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete__block {
+  display: flex;
+  align-items: center;
+}
+
+.delete__title {
+  margin-left: 10px;
+  color: #b6b6b6;
+}
+
+.cart__price {
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & p {
+    font-size: 22px;
+  }
+
+  & b {
+    color: #fe5f1e;
+  }
+}
+
+.cart__buttom {
+  display: flex;
+  justify-content: space-between;
+
+  button {
+    background: #5c5c5c;
+    color: #b9b9b9;
+    font-weight: bolder;
+    max-width: 211px;
+    height: 55px;
+    border-radius: 30px;
+    padding: 0 20px;
+    margin-right: 10px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+
+    a {
+      color: #ffffff;
+    }
+
+    .btn {
+      background: #ffffff;
+      border: 1px solid #eb5a1e;
+    }
+
+    .btn:hover {
+      background: #eb5a1e;
+      color: #ffffff;
+    }
+
+    .btn:disabled {
+      background-color: #000000;
+      cursor: no-drop;
+      pointer-events: none;
+    }
+  }
+
+  button:hover {
+    background: #2c2c2c;
+    color: #f9f9f9;
+  }
+}

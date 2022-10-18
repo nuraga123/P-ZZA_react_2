@@ -1,0 +1,43 @@
+.nav__content {
+  max-width: 700px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+  overflow-x: auto;
+  width: 100%;
+}
+
+.nav__content::-webkit-scrollbar {
+  display: flex;
+  background: #fe5f1e;
+  border-radius: 10px;
+  height: 10px;
+}
+
+.nav__content::-webkit-scrollbar-thumb {
+  background-color: #ffdf8c;
+  border-radius: 10px;
+}
+
+.nav__content {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.button {
+  background: #f9f9f9;
+  color: #2c2c2c;
+  max-width: 200px;
+  height: 35px;
+  border-radius: 30px;
+  padding: 0 20px;
+  margin-right: 10px;
+  transition: 0.3s ease;
+  cursor: pointer;
+  margin: 5px 3px;
+}
+
+.button:hover,
+.button__active {
+  background: #282828;
+  color: #ffffff;
+}

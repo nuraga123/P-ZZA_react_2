@@ -1,0 +1,49 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1125px;
+  margin-bottom: 32px;
+}
+
+.button {
+  background: #f9f9f9;
+  color: #2c2c2c;
+  max-width: 200px;
+  height: 46px;
+  border-radius: 30px;
+  padding: 0 20px;
+  margin-right: 10px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.button:hover,
+.button__active {
+  background: #282828;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 930px) {
+  .navigation {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 690px;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .navigation {
+    flex-direction: column;
+  }
+}
